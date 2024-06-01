@@ -44,3 +44,36 @@
 .header-icon-wrapper svg {
  fill: var(--color-primary-lighter);
 }
+.header-nav-list{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  list-style: none;
+  gap: 3rem;
+  background-color: var(--color-white);
+  flex-wrap: wrap;
+}
+.header-nav-item a{
+  text-decoration:none;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--color-black);
+  padding: .3rem;
+  display: inline-block;
+  transition: all .5s;
+
+}
+@media screen and (max-width: 400px){
+   .header-nav-item{
+    flex-direction: column;
+    
+   }
+   .header-nav-list{
+    gap: .5rem;
+   }
+  
+}
+.header-nav-item a:hover{
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
