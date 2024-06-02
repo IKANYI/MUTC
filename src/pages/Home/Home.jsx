@@ -1,8 +1,10 @@
+import Hero from './Hero';
+import './Home.css'
 const Home = () =>{
   return (
-    <h2>
-      Home
-    </h2>
+    <section className="home-hero">
+      <Hero/>
+    </section>
   )
 }
 export default Home

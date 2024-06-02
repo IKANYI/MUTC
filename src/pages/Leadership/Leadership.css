@@ -1,0 +1,26 @@
+.leaders{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-left: 2rem;
+  align-content: center;
+  justify-content: center;
+  place-items: center;
+  
+}
+.style{
+  display: flex;
+  flex-direction: column !important;
+}
+.profile{
+  width: 17rem;
+  min-height: 20rem;
+
+
+}
+.profile img{
+  width: 100%;
+  max-height: 15rem;
+  max-height: 25rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
