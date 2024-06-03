@@ -1,11 +1,11 @@
-.tracks-container{
+.event-container{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.track-items{
-  margin: 1rem 0.5rem;
+.event-desc{
+  margin: 1rem .6rem;
   background-color: var(--color-white);
   color: var(--color-primary);
 }

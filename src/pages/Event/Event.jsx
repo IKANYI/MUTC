@@ -1,3 +1,4 @@
+import './Event.css';
 const Event = () => {
   return(
   <section className="event-container">
