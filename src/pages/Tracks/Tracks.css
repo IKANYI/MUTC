@@ -9,3 +9,17 @@
   background-color: var(--color-white);
   color: var(--color-primary);
 }
+.student-info{
+  display: flex;
+  flex-direction: column;
+  gap:.3rem;
+}
+.button{
+  padding:1rem .5rem;
+  background-color: var(--color-primary);
+  text-align:center;
+  width:6rem;
+  border-radius: 2rem;
+  margin: 1rem;
+  color:white;
+}
